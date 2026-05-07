@@ -49,6 +49,19 @@ Optimizer:
 | Mini U-Net (25 epochs) | 0.8766 | 0.8830 | 0.8788 | 0.7854 |
 
 ---
+## Interactive Web Interface
+
+A simple Gradio web application was implemented to provide an interactive demo of the final Mini U-Net model.
+
+Features:
+- Upload custom images
+- Generate saliency masks in real time
+- Visualize overlay segmentation results
+- Display fast inference results
+
+The interface allows users to test the Salient Object Detection model directly through a user-friendly web application.
+
+---
 
 ## Demo
 The notebook includes a live demo where users can:
