@@ -39,6 +39,17 @@ Optimizer:
 
 ---
 
+## Project Structure
+
+- `data_loader.py` → Dataset loading and preprocessing
+- `sod_model.py` → Mini U-Net model architecture
+- `train.py` → Training and validation loop
+- `evaluate.py` → Evaluation metrics and visualization
+- `app.py` → Gradio web application for live inference
+- `sod_project.ipynb` → Full notebook implementation
+
+---
+
 ## Results
 
 | Model | Precision | Recall | F1 | IoU |
@@ -71,6 +82,12 @@ The notebook includes a live demo where users can:
 - Measure inference time
 
 ---
+## Live Demo
+
+Hugging Face Spaces:
+https://huggingface.co/spaces/Anidaa/sod-salient-object-detection
+
+---
 
 ## Final Conclusion
 The final improved Mini U-Net model trained for 25 epochs achieved the best overall performance, with:
@@ -91,3 +108,5 @@ The addition of skip connections, batch normalization, dropout, and data augment
 - OpenCV
 - Matplotlib
 - Google Colab
+- Gradio
+- Hugging Face Spaces
